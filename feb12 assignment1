@@ -1,0 +1,42 @@
+s=120
+sa=100
+f=90
+o=150
+j=130
+cname=input('enter customer name')
+cphno=input('enter customer phone number')
+sq=int(input('enter no of sugar packets'))
+saq=int(input('enter no of salt packets'))
+fq=int(input('enter no of flour packets'))
+oq=int(input('enter no of oil packets'))
+jq=int(input('enter no of jaggery packets'))
+bill=(s*sq)+(sa*saq)+(f*fq)+(o*oq)+(j*jq)
+if bill>5000:
+    disc=bill*10/100
+    tax=bill*18/100
+elif bill>3000:
+    disc=bill*8/100
+    tax=bill*10/100
+elif bill>2000:
+    disc=bill*5/100
+    tax=bill*18/100
+elif bill>1000:
+    disc=bill*3/100
+    tax=bill*18/100
+else:
+    print('bill is less than 1000')
+mainbill=bill-disc+tax
+print('total bill is: ',mainbill)
+output:
+enter customer name harika
+enter customer phone number9848032919
+enter no of sugar packets 5
+enter no of salt packets7
+enter no of flour packets6
+enter no of oil packets4
+enter no of jaggery packets3
+total bill is:  3197.9
+
+
+    
+   
