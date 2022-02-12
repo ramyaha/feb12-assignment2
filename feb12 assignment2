@@ -1,0 +1,15 @@
+a=int(input('enter a number'))
+b=int(input('enter a number'))
+if a==b:
+    print('two numbers are equal')
+else:
+    a!=b
+    print('two numbers are  not equal')
+    if a>b:
+        print('a is greater than b')
+    else:
+        print('a is smaller than b')
+output:
+enter a number3
+two numbers are  not equal
+a is greater than b
